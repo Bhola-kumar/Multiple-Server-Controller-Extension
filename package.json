@@ -2,7 +2,7 @@
   "name": "servercontroller",
   "displayName": "Multiple-Server-Controller-Extension",
   "description": "This is a vs code extension enables you to control multiple flask app from a single extenion.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "BholaKumar",
   "engines": {
     "vscode": "^1.95.0"
@@ -19,6 +19,10 @@
         "title": "start Server"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bhola-kumar/Multiple-Server-Controller-Extension"
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

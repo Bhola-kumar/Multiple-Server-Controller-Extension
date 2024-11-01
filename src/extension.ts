@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "serverController" is now active!');
 	const serverControllerButton = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right);
-	serverControllerButton.text = '$(call-incoming)';
+	serverControllerButton.text = '$(server)';
 	serverControllerButton.command = 'serverController.startServer';
 	serverControllerButton.show();
 
